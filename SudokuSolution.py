@@ -1,3 +1,6 @@
+import numpy as np
+import random
+
 class SudokuSolution:
     def __init__(self):
         self.filled_sudoku = np.copy(SudokuSolution.unsolved_sudoku)

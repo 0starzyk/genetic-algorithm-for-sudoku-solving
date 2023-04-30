@@ -1,6 +1,6 @@
 import numpy as np
 import random
-import SudokuSolution
+from SudokuSolution import SudokuSolution
 
 
 def print_sudoku_string(sudoku_string: str):
